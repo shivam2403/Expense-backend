@@ -31,4 +31,5 @@ app.use('/api/v1/income/',incomeRouter);
 
 app.listen(5000,(req,res)=>{
     console.log('Server is running on port 5000');
+    res.send("Hello");
 })
